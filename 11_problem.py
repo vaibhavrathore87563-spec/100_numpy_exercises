@@ -8,4 +8,13 @@ arr[5]=0
 arr[7]=0
 arr[9]=0
 
+#arr[arr%2==0]=0
+
 print(arr)
+
+#give a numpy array ,print only the elements divisible by 2
+import numpy as np 
+arr1 = np.array([12,34,66,76,90,42,11,53])
+
+even = arr1[arr1 % 2 ==0]
+print(even)
