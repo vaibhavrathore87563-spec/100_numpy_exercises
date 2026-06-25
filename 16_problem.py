@@ -1,0 +1,11 @@
+import numpy as np
+A = np.arange(1,26).reshape(5,5)
+print(A)
+print(A[2])
+print(A[:,1])
+print(A[-1,-1])
+print(A[3])
+print(A[:,4])
+print(A[-2,-2])
+print(A[-3,-3])
+print(A[3,2])
