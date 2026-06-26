@@ -2,5 +2,5 @@
 
 import numpy as np
 arr = np.tile([[0,1],
-               [1,0]],(5,5))
+                [1,0]],(5,5))
 print(arr)
