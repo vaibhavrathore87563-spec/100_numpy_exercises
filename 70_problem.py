@@ -7,5 +7,4 @@ print("Min:", np.iinfo(dtype).min)
 print("Max:", np.iinfo(dtype).max)
 print()
 
-
 #iinfo()-->means integer information.It returns details about the integer type.
